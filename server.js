@@ -21,6 +21,8 @@ const PORT = process.env.PORT || 3000;
 
 app.use("/api/task", todoRoute);
 
+app.use("/api/tasks", todoRoute);
+
 app.get("/", (req, res) => {
   res.send("API is running successfully!!!");
 });
