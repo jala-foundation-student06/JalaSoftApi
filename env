@@ -1,0 +1,2 @@
+MODE = development
+MONGO_URL = mongodb+srv://daniel:daniel123@clusterjalasoft.q1eahs7.mongodb.net/?retryWrites=true&w=majority
